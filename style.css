@@ -526,6 +526,16 @@ footer .line-footer2 p{
         flex-direction: column-reverse;
     }
 
+    .logo .img{
+
+        width: 300%;
+    }
+
+    .sobre .img-sobre{
+
+        width: 100%;
+    }
+
     
 
     .topo-do-site h1{
