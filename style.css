@@ -148,6 +148,8 @@ header nav.menu-desktop ul li{
 
 
 
+
+
 .menu-mobile{
 
     background-color: var(--cor0);
@@ -601,13 +603,20 @@ footer .line-footer2 p{
 
     .sobre .txt-sobre p{
 
-        font-size: 18px;
+        font-size: 16px;
+        padding: 20px 6%;
+        margin: 18px;
         
     }
 
     section.sobre{
 
-        padding: 80px 8%;
+        padding: 10px 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .sobre .txt-sobre h2{
@@ -618,7 +627,7 @@ footer .line-footer2 p{
    
 
     section.especialidades{
-        padding: 80px 8%;
+        padding: 20px 3%;
         display: flex;
         flex-direction: column;
         justify-content: center;
