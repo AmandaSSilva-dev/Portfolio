@@ -513,16 +513,49 @@ footer .line-footer2 p{
 
 @media screen and (max-width: 1093px){
 
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+
     .flex{
         flex-direction: column;
-        max-width: 100%;
-        overflow: hidden;
     }
 
 
+    .sobre .flex{
+        flex-direction: column-reverse;
+    }
 
-    .menu-desktop, .btn-contato{
-        display: none;
+    
+
+    .topo-do-site h1{
+        font-size: 40px;
+        line-height: 40px;
+        padding-top: 50px;
+        white-space: nowrap;
+        
+    }
+
+    section.topo-do-site{      
+       
+
+        padding: 20px 8%;
+       
+        
+        
+
+
+    }
+
+    .topo-do-site .txt-topo-site h2{
+        margin: 9px 0;
+        font-size: 28px;
+        white-space: nowrap;
+       padding-bottom: 50px;
+      
+        
+
+    
     }
 
     .topo-do-site .txt-topo-site p{
@@ -534,143 +567,18 @@ footer .line-footer2 p{
         
     }
 
-    section.topo-do-site{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-
-        padding: 20px 8%;
-        overflow: hidden;
-    }
-    .topo-do-site h1{
-
-        
-        font-size: 40px;
-        line-height: 40px;
-        padding-top: 50px;
-
-        white-space: nowrap;
-        
-    
-    }
-    
-    .topo-do-site .txt-topo-site h2{
-    
-        
-        margin: 9px 0;
-        font-size: 28px;
-        white-space: nowrap;
-       padding-bottom: 50px;
-        
-    
-    
-    }
-
-    
-        .btn-contato2 button{
+    .btn-contato2 button{
 
         padding: 9px 20px;
         font-size: 16px;
         border-radius: 20px;
         white-space: nowrap;
         margin-bottom: 60px;
-    }
-
-
-    .sobre .flex{
-
-        flex-direction: column-reverse;
-    }
-
-
-    .sobre .txt-sobre p{
-
-        font-size: 16px;
-        padding: 20px 6%;
-        margin: 18px;
-        
-    }
-
-    section.sobre{
-
-        padding: 10px 3%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .sobre .txt-sobre h2{
-
-        padding: 50px 0;
-    }
-
-   
-
-    section.especialidades{
-        padding: 20px 3%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-}
-
-    section.projetos{
-        padding: 10px 10%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        
-
-    }
-
-    .img-port{
-
-       margin: 40px 0px;
-    }
-
-    .btn-social{
-
-        text-align: center;
-    }
-
-    footer .flex{
-        flex-direction: column-reverse;
         
     }
 
 
-    footer .line-footer p{
 
-        
-        font-size: 15px;
-        padding: 50px 0;
-        text-align: center;
-
-        
-       
-    }
-
-    .btn-abrir-menu{
-        display: block;
-    }
-
-    .logo .img{
-
-        width:300% ;
-    }
-
-    .sobre .img-sobre{
-
-        width: 200%;
-    }
 }
     
 
