@@ -544,15 +544,13 @@ footer .line-footer2 p{
         
     }
 
-    section.topo-do-site{
-        display: flex;
-        flex-direction: column;
+    section.topo-do-site{      
         justify-content: center;
         align-items: center;
         text-align: center;
 
-        padding: 20px 7%;
-        overflow: hidden;
+        padding: 20px 8%;
+       
         
         
 
