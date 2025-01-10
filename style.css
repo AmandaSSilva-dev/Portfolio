@@ -520,6 +520,7 @@ footer .line-footer2 p{
     .flex{
         flex-direction: column;
         max-width: 100%;
+        box-sizing: border-box;
         
         
         
@@ -532,12 +533,13 @@ footer .line-footer2 p{
 
     .interface .logo{
 
-        display: none;
+        display: 100%;
     }
 
     .sobre .img-sobre{
 
         width: 100%;
+        align-items: center;
     }
 
     
