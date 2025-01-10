@@ -536,7 +536,7 @@ footer .line-footer2 p{
         display: none;
     }
 
-    .sobre .img-sobre{
+    .sobre .img-sobre img{
 
         width: 100%;
         align-items: center;
@@ -545,7 +545,7 @@ footer .line-footer2 p{
     
 
     .topo-do-site h1{
-        font-size: 30px;
+        font-size: 32px;
         line-height: 40px;
         padding-top: 50px;
         white-space: nowrap;
@@ -572,7 +572,7 @@ footer .line-footer2 p{
 
     .topo-do-site .txt-topo-site h2{
         margin: 9px 0;
-        font-size: 28px;
+        font-size: 26px;
         white-space: nowrap;
        padding-bottom: 50px;
        
