@@ -516,7 +516,7 @@ footer .line-footer2 p{
     .flex{
         flex-direction: column;
         max-width: 100%;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
 
@@ -542,7 +542,7 @@ footer .line-footer2 p{
         align-items: center;
         text-align: center;
 
-        padding: 20px 7%;
+        padding: 20px 8%;
         overflow: hidden;
     }
     .topo-do-site h1{
@@ -664,12 +664,12 @@ footer .line-footer2 p{
 
     .logo .img{
 
-        width:200% ;
+        width:300% ;
     }
 
     .sobre .img-sobre{
 
-        width: 100%;
+        width: 200%;
     }
 }
     
