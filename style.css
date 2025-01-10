@@ -519,6 +519,8 @@ footer .line-footer2 p{
 
     .flex{
         flex-direction: column;
+        
+        
     }
 
 
@@ -544,12 +546,21 @@ footer .line-footer2 p{
         padding-top: 50px;
         white-space: nowrap;
         
+        
     }
 
     section.topo-do-site{      
        
 
-        padding: 30px 8%;
+        padding: 20px 7%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        
+
        
         
         
@@ -562,6 +573,10 @@ footer .line-footer2 p{
         font-size: 28px;
         white-space: nowrap;
        padding-bottom: 50px;
+       
+      
+      
+
       
         
 
@@ -586,6 +601,74 @@ footer .line-footer2 p{
         margin-bottom: 60px;
         
     }
+
+    .btn-social{
+
+        text-align: center;
+        
+    }
+
+    .sobre .txt-sobre h2{
+
+        padding: 40px 0;
+    }
+
+    .sobre .txt-sobre p{
+
+        font-size: 18px;
+        padding: 20px 6%;
+        margin: 10px;
+        
+    }
+
+    section.especialidades{
+        padding: 20px 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    section.projetos{
+        padding: 10px 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+
+    }
+
+    .img-port{
+
+        margin: 40px 0px;
+     }
+
+     footer .flex{
+        flex-direction: column-reverse;
+        
+    }
+
+
+    footer .line-footer p{
+
+        
+        font-size: 15px;
+        padding: 50px 0;
+        text-align: center;
+
+        
+       
+    }
+
+    .btn-abrir-menu{
+        display: block;
+    }
+
+
 
 
 
