@@ -533,12 +533,12 @@ footer .line-footer2 p{
 
     .interface .logo{
 
-        display: none;
+        display: 100%;
     }
 
     .sobre .img-sobre img{
 
-        width: 100%;
+        width: 90%;
         align-items: center;
     }
 
