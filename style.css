@@ -530,7 +530,10 @@ footer .line-footer2 p{
         flex-direction: column-reverse;
     }
 
-    
+    .interface .logo{
+
+        display: none;
+    }
 
     .sobre .img-sobre{
 
