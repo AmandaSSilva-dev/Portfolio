@@ -274,17 +274,7 @@ section.topo-do-site.flex{
     
 }
 
-.topo-do-site .img-top-site img{
 
-    position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
-    width: 380;
-    
-
-
-
-
-}
 
 section.sobre{
     padding: 90px 4%;
@@ -521,173 +511,49 @@ footer .line-footer2 p{
 
 }
 
-@media screen and (max-width: 1020px){
-
-    .flex{
-        flex-direction: column;
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
-
+@media screen and (max-width: 1093px){
 
     .menu-desktop, .btn-contato{
         display: none;
     }
 
-    .topo-do-site .txt-topo-site p{
+    .flex{
+        flex-direction: column;
+    }
 
-        font-size: 20px;
-        white-space: nowrap;
-        line-height: 10px;
-        word-spacing: 15px;
+    .sobre .flex{
+        flex-direction: column-reverse;
+    }
+
+    .topo-do-site h1{
+        font-size: 40px;
         
     }
 
     section.topo-do-site{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        padding: 20px 8%;
         align-items: center;
-        text-align: center;
 
-        padding: 20px 7%;
-        overflow: hidden;
+
     }
-    .topo-do-site h1{
 
-        
-        font-size: 40px;
-        line-height: 40px;
-        padding-top: 50px;
-
-        white-space: nowrap;
-        
-    
-    }
-    
     .topo-do-site .txt-topo-site h2{
-    
-        
-        margin: 9px 0;
-        font-size: 28px;
-        white-space: nowrap;
-       padding-bottom: 50px;
-        
-        
-        
-    
-    
-    
-    }
+        font-size: 20px;
 
     
-        .btn-contato2 button{
-
-        padding: 9px 20px;
-        font-size: 16px;
-        border-radius: 20px;
-        white-space: nowrap;
-        margin-bottom: 60px;
     }
 
+    .topo-do-site .txt-topo-site p{
 
-    .sobre .flex{
-
-        flex-direction: column-reverse;
+        font-size: 25px;
     }
-
-
-    .sobre .txt-sobre p{
-
-        font-size: 16px;
-        padding: 20px 6%;
-        margin: 18px;
-        
-    }
-
-    section.sobre{
-
-        padding: 10px 3%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .sobre .txt-sobre h2{
-
-        padding: 50px 0;
-    }
-
-   
-
-    section.especialidades{
-        padding: 20px 3%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-}
-
-    section.projetos{
-        padding: 10px 10%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        
-
-    }
-
-    .img-port{
-
-       margin: 40px 0px;
-    }
-
-    .btn-social{
-
-        text-align: center;
-    }
-
-    footer .flex{
-        flex-direction: column-reverse;
-        
-    }
-
-
-    footer .line-footer p{
-
-        
-        font-size: 15px;
-        padding: 50px 0;
-        text-align: center;
-
-        
-       
-    }
-
-    .btn-abrir-menu{
-        display: block;
-    }
-
-    
-     
-
-
-
-
-
-
 
 
 
 }
+    
 
+    
 
 
 
