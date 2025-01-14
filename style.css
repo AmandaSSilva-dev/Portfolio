@@ -616,7 +616,7 @@ html{
     
 
     .topo-do-site h1{
-        font-size: 2em;
+        font-size: 2.3em;
         line-height: 40px;
         padding-top: 50px;
         white-space: nowrap;
@@ -625,7 +625,7 @@ html{
     }
 
     section.topo-do-site{      
-        padding: 20px 0%;
+        padding: 20px 1%;
         height: 100vh;
         background-image:url(Imagens/banner\ mobile.png) ;
         justify-content: center;
@@ -645,7 +645,7 @@ html{
 
     .topo-do-site .txt-topo-site h2{
         margin: 9px 0;
-        font-size: 1,5em;
+        font-size: 1.3em;
         white-space: nowrap;
        padding-bottom: 50px;
        
@@ -670,7 +670,7 @@ html{
     .btn-contato2 button{
 
         padding: 9px 20px;
-        font-size: 18px;
+        font-size: 15px;
         border-radius: 20px;
         white-space: nowrap;
         margin-bottom: 60px;
