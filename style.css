@@ -36,6 +36,8 @@
     font-family: "Montserrat", sans-serif;
 }
 
+
+
 .btn-social button:hover{
     box-shadow: 0px 0px 8px #d96a6a73;
     
@@ -105,7 +107,11 @@ body{
 }
 
 header{
-    padding: 0px 4%;
+    padding: 40px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 
 
 }
@@ -114,6 +120,12 @@ header > .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+header.rolagem{
+
+    background-color: white;
+    padding: 8px 4%;
 }
 
 a{
@@ -220,6 +232,16 @@ header nav.menu-desktop ul li{
 section.topo-do-site{
 
     padding: 70px 4%;
+    height: 100vh;
+    background-image:url(Imagens/banner.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 section.topo-do-site.flex{
@@ -270,7 +292,7 @@ section.topo-do-site.flex{
 
 .topo-do-site .txt-topo-site{
 
-    padding: 80px 300px 0 40px;
+    padding: 100px 500px 0 40px;
     
 }
 
@@ -290,7 +312,7 @@ section.topo-do-site.flex{
 
 .logo{
 
-    padding: 20px 0;
+    
     display: inline-block;
 }
 
@@ -529,6 +551,11 @@ footer .line-footer2 p{
     color: var(--cor4);
     font-size: small;
 
+}
+
+html{
+    scroll-behavior: smooth;
+    height: 500vh;
 }
 
 @media screen and (max-width: 1093px){
