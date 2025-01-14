@@ -606,6 +606,13 @@ html{
         align-items: center;
     }
 
+    header{
+        padding: 20px 4%;
+        
+    
+    
+    }
+
     
 
     .topo-do-site h1{
@@ -622,6 +629,7 @@ html{
         height: 100vh;
         background-position: center;
         background-size: cover;
+        background-image:url(Imagens/bannermob.png) ;
         justify-content: center;
         align-items: center;
         text-align: center;
