@@ -625,10 +625,8 @@ html{
     }
 
     section.topo-do-site{      
-        padding: 20px 7%;
+        padding: 20px 4%;
         height: 100vh;
-        background-position: center;
-        background-size: cover;
         background-image:url(Imagens/bannermob.png) ;
         justify-content: center;
         align-items: center;
