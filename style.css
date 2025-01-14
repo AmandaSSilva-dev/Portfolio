@@ -616,7 +616,7 @@ html{
     
 
     .topo-do-site h1{
-        font-size: 2.5em;
+        font-size: 2em;
         line-height: 40px;
         padding-top: 50px;
         white-space: nowrap;
@@ -660,7 +660,7 @@ html{
 
     .topo-do-site .txt-topo-site p{
 
-        font-size: 20px;
+        font-size: 22px;
         white-space: nowrap;
         line-height: 10px;
         word-spacing: 15px;
@@ -670,7 +670,7 @@ html{
     .btn-contato2 button{
 
         padding: 9px 20px;
-        font-size: 16px;
+        font-size: 18px;
         border-radius: 20px;
         white-space: nowrap;
         margin-bottom: 60px;
