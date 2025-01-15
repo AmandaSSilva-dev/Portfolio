@@ -605,7 +605,7 @@ html{
     
 
     .topo-do-site h1{
-        font-size: 2.5rem;
+        font-size: 2.1rem;
         line-height: 40px;
         padding-top: 50px;
         white-space: nowrap;
@@ -614,7 +614,7 @@ html{
     }
 
     section.topo-do-site{      
-        padding: 20px 3%;
+        padding: 20px 0%;
         height: 100vh;
         background-image:url(Imagens/banner\ mobile.png) ;
         justify-content: center;
