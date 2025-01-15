@@ -558,11 +558,17 @@ html{
         flex-direction: column;
         max-width: 100%;
         box-sizing: border-box;
-        overflow-x: hidden;
+        overflow: hidden;
         
         
         
     }
+
+    body{
+
+        overflow: hidden;
+     }
+     
 
     .logo p span{
 
@@ -598,6 +604,7 @@ html{
 
     header{
         padding: 20px 4%;
+       
         
     
     
