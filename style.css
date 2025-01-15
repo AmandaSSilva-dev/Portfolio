@@ -96,7 +96,7 @@ body{
 }
 
 header{
-    padding: 40px 4%;
+    padding: 22px 15%;
     position: fixed;
     top: 0;
     left: 0;
@@ -220,9 +220,8 @@ header nav.menu-desktop ul li{
 
 
 section.topo-do-site{
-
-    padding: 70px 4%;
     height: 100vh;
+    width: 100%;
     background-image:url(Imagens/banner.png) ;
     background-position: center;
     background-repeat: no-repeat;
@@ -263,7 +262,8 @@ section.topo-do-site.flex{
     font-size: 4rem;
     line-height: 40px;
     font-weight: bold;
-    padding-top: 30px;
+    padding-top: 40px;
+    margin: 0 0 8px ;
     
 
 }
@@ -603,18 +603,30 @@ html{
     
     }
 
+    .topo-do-site .txt-topo-site{
+
+        padding: 10px;
+        padding-top: 40px;
+        
+    }
+
     
 
     .topo-do-site h1{
-        font-size: 2rem;
+        font-size: 2.2rem;
         line-height: 40px;
         padding-top: 50px;
-        white-space: nowrap;
-        overflow-x: hidden;
-        word-wrap: break-word;
+        
+       
+        
+        
         
         
     }
+
+    
+        
+    
 
     section.topo-do-site{      
         padding: 20px 1%;
@@ -654,10 +666,13 @@ html{
 
         font-size: 22px;
         white-space: nowrap;
-        line-height: 10px;
+        line-height: 5px;
         word-spacing: 15px;
         
     }
+
+    
+    
 
     .btn-contato2 button{
 
