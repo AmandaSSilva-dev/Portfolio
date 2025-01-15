@@ -558,6 +558,7 @@ html{
         flex-direction: column;
         max-width: 100%;
         box-sizing: border-box;
+        overflow-x: hidden;
         
         
         
@@ -609,12 +610,14 @@ html{
         line-height: 40px;
         padding-top: 50px;
         white-space: nowrap;
+        overflow-x: hidden;
+        word-wrap: break-word;
         
         
     }
 
     section.topo-do-site{      
-        padding: 20px 0%;
+        padding: 20px 1%;
         height: 100vh;
         background-image:url(Imagens/banner\ mobile.png) ;
         justify-content: center;
