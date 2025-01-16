@@ -571,7 +571,7 @@ html{
         flex-direction: column;
         max-width: 100%;
         box-sizing: border-box;
-        overflow: hidden;
+        
         
         
         
@@ -580,7 +580,15 @@ html{
     body{
 
         overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        
+
+        
     }
+
+    
 
 
     
@@ -616,7 +624,7 @@ html{
 
     .sobre .img-sobre img{
 
-        width: 98%;
+        width: 100%;
         align-items: center;
     }
 
