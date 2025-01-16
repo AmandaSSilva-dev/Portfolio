@@ -720,7 +720,7 @@ html{
     }
 
     section.especialidades{
-        padding: 20px 3%;
+        padding: 20px 1%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -730,7 +730,7 @@ html{
 
 
     section.projetos{
-        padding: 10px 10%;
+        padding: 10px 1%;
         display: flex;
         flex-direction: column;
         justify-content: center;
