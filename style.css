@@ -285,7 +285,8 @@ section.topo-do-site.flex{
 
 .topo-do-site .txt-topo-site{
 
-    padding: 100px 500px 0 40px;
+    padding: 100px 400px 0 40px;
+    
     
 }
 
@@ -368,6 +369,7 @@ color: var(--cor4);
     transition: .2s;
     text-decoration: none;
     outline: none;
+    
     
     
 }
@@ -519,6 +521,7 @@ footer{
 
     padding: 60px 4%;
     box-shadow: 0 0 40px 10px #f2c4b33a;
+    clear: both;
 }
 
 footer .flex{
@@ -552,8 +555,11 @@ footer .line-footer2 p{
 
 html{
     scroll-behavior: smooth;
-    height: 500vh;
+    height: 400vh;
+    
 }
+
+
 
 @media screen and (max-width: 1093px){
 
@@ -571,10 +577,11 @@ html{
         
     }
 
-    .body{
-
-        overflow-x: hidden;
+    body, html{
+        overflow: hidden;
     }
+
+    
 
    
      
