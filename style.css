@@ -11,7 +11,7 @@
     --cor3: #bf343f;
     --cor4: #591e1e;
 
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-padrao: "Poppins", sans-serif;
     
 
 
@@ -22,7 +22,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
 
@@ -54,6 +56,7 @@ header nav.menu-desktop a:hover{
     border: 0;
     cursor: pointer;
     color: var(--cor0);
+    transition: 0.5s;
 }
 .btn-contato button:hover{
     box-shadow: 0px 0px 8px #d96a6a73;
@@ -70,6 +73,7 @@ header nav.menu-desktop a:hover{
     border: 0;
     cursor: pointer;
     color: var(--cor0);
+    transition: 0.5s;
 }
 
 .btn-contato2 button:hover{
@@ -120,6 +124,7 @@ header.rolagem{
 
     background-color: white;
     padding: 8px 4%;
+   
 }
 
 a{
@@ -226,7 +231,7 @@ header nav.menu-desktop ul li{
 section.topo-do-site{
     height: 100vh;
     width: 100%;
-    background-image:url(Imagens/banner.png) ;
+    background-image:url(Imagens/banner3.png) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -255,7 +260,7 @@ section.topo-do-site.flex{
 
 .topo-do-site .txt-topo-site p{
 
-    font-size: 29px;
+    font-size: 25px;
 }
 
 
@@ -276,7 +281,7 @@ section.topo-do-site.flex{
 
     color: var(--cor4);
     margin: 40px 0;
-    font-size: 28px;
+    font-size: 30px;
     
     
 
@@ -286,7 +291,7 @@ section.topo-do-site.flex{
 
 .topo-do-site .txt-topo-site{
 
-    padding: 100px 400px 0 40px;
+    padding: 146px 561px 0 40px;
     
     
 }
@@ -315,7 +320,7 @@ section.topo-do-site.flex{
 
 section.sobre{
     padding: 90px 4%;
-    background-color: #e0dede;
+    background-color: #e9e6e6;
 }
 
 section.sobre .flex{
@@ -442,8 +447,8 @@ section.especialidades .flex{
 
 section.projetos{
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px #f2c4b33a;
-    background-color: #e0dede;
+    box-shadow: 0 0 50px 10px #f2c4b32c;
+    background-color: #e9e6e6;
 }
 
 
@@ -556,7 +561,7 @@ footer .line-footer2 p{
 
 html{
     scroll-behavior: smooth;
-    height: 400vh;
+    height: 300vh;
     
 }
 
@@ -589,12 +594,14 @@ html{
         
     }
 
-
     .interface{
 
         max-width: 100%;
         
     }
+
+
+   
 
 
     
@@ -667,7 +674,7 @@ html{
     section.topo-do-site{      
         padding: 20px 4%;
         height: 100vh;
-        background-image:url(Imagens/banner\ mobile.png) ;
+        background-image:url(Imagens/bannermobile3.png mobile.png) ;
         justify-content: center;
         align-items: center;
         text-align: center;
