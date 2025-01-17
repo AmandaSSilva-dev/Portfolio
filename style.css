@@ -96,6 +96,7 @@ body{
 
     max-width: 1280px;
     margin: 0 auto;
+    
 }
 
 header{
@@ -217,7 +218,7 @@ header nav.menu-desktop ul li{
 
 .menu-mobile .btn-fechar{
 
-    padding: 20px 5%;
+    padding: 20px 4%;
 }
 
 
@@ -588,13 +589,15 @@ html{
         
     }
 
-    
+
+    .interface{
+
+        max-width: 100%;
+        
+    }
 
 
     
-
-   
-     
 
     .logo p span{
 
@@ -744,6 +747,32 @@ html{
         align-items: center;
         text-align: center;
     }
+
+    .especialidades .esp-box{
+
+        
+        padding: 40px;
+        border: 2px  solid white;
+        border-radius: 20px;
+        width: 250px;
+        height: 250px;
+       
+    
+    
+    
+        
+    
+    }
+
+    .especialidades .esp-box h3{
+
+        padding: 11px;
+    }
+    
+
+
+    
+    
 
 
     section.projetos{
